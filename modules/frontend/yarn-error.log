@@ -1,0 +1,71 @@
+Arguments: 
+  /home/jabbar/.nvm/versions/node/v12.15.0/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/jabbar/.nvm/versions/node/v12.15.0/bin:/home/jabbar/codebase/anotator/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "anotator",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "annotorious": "0.6.4",
+      "core-js": "^3.6.5",
+      "vue": "^2.6.11",
+      "vue-router": "^3.0.6"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.4.0",
+      "@vue/cli-plugin-eslint": "~4.4.0",
+      "@vue/cli-service": "~4.4.0",
+      "axios": "^0.18",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^6.2.2",
+      "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "rules": {}
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
